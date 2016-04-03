@@ -1,0 +1,308 @@
+* {
+  font-family: "微软雅黑";
+}
+html,
+body {
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  font-size: 0;
+  vertical-align: middle;
+  background-color: #ccc;
+}
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #1c1c1c;
+  overflow: hidden;
+}
+#header .location {
+  float: left;
+  margin-left: 30px;
+}
+#header .location .location-btn {
+  font-size: 18px;
+  color: #fff;
+}
+#header .location i {
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  background: url("../img/location.png") 0px 0px no-repeat;
+  background-size: 20px 10px;
+}
+#header .title-bar {
+  display: inline-block;
+  width: 53%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+#header .seek {
+  float: right;
+  margin-right: 30px;
+  width: 30px;
+}
+#header .seek .seek-img {
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+  vertical-align: middle;
+}
+#nav {
+  font-size: 16px;
+  text-align: center;
+  background-color: #eaeaea;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+}
+#nav .more {
+  float: left;
+  width: 50%;
+  height: 100%;
+  color: #666666;
+  position: relative;
+}
+#nav .more span {
+  display: inline-block;
+  width: 100px;
+}
+#nav .more span #aa {
+  float: right;
+  width: 22px;
+  height: 50px;
+  margin: 18% 0 0 -30%;
+  background: url("../img/head-down.png") 5px 0px no-repeat;
+}
+#nav .more span .bg {
+  display: none;
+  float: right;
+  width: 22px;
+  height: 50px;
+  margin: 18% 0 0 -30%;
+  background: url("../img/head-up.png") 5px 0px no-repeat;
+}
+#nav .more var {
+  float: right;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  margin-top: 10px;
+  display: inline-block;
+  height: 30px;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#nav .capacity {
+  float: right;
+  width: 50%;
+  height: 100%;
+  color: #666666;
+}
+#nav .capacity span {
+  display: inline-block;
+  width: 100px;
+}
+#nav .capacity .i-up {
+  float: right;
+  margin: 18% 0 0 -25%;
+  width: 22px;
+  height: 14px;
+  background: url("../img/head-up.png") 5px 0px no-repeat;
+}
+#nav .capacity .i-down {
+  display: none;
+  float: right;
+  margin: 18% 0 0 -25%;
+  width: 22px;
+  height: 14px;
+  background: url("../img/head-down.png") 5px 0px no-repeat;
+}
+#main {
+  background-color: #f3f3f3;
+  overflow: hidden;
+  position: relative;
+}
+#main .common-main-left {
+  display: inline-block;
+  width: 45%;
+  margin: 5% 3% 0 3.5% ;
+  float: left;
+  background-color: #fff;
+  overflow: hidden;
+}
+#main .common-main-left .two {
+  margin: 15px 0 0 10%;
+}
+#main .common-main-left .two a {
+  float: left;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid #999999;
+  line-height: 40px;
+  color: #999999;
+}
+#main .common-main-left dd {
+  margin: 15px 0 12px  0;
+  text-align: center;
+}
+#main .common-main-left dd var {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  text-align: center;
+}
+#main .common-main-left dd em {
+  display: inline-block;
+  text-align: left;
+  font-size: 12px;
+  color: #999999;
+  margin-left: -17%;
+}
+#main .common-main-right {
+  display: inline-block;
+  width: 45%;
+  margin-top: 5%;
+  background-color: #fff;
+}
+#main .common-main-right .two {
+  margin: 15px 0 0 10%;
+}
+#main .common-main-right .two a {
+  float: left;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid #999999;
+  line-height: 40px;
+  color: #999999;
+}
+#main .common-main-right dd {
+  margin: 15px 0 12px  0;
+  text-align: center;
+}
+#main .common-main-right dd var {
+  display: inline-block;
+  font-size: 14px;
+  color: #333333;
+  text-align: center;
+}
+#main .common-main-right dd em {
+  display: inline-block;
+  text-align: left;
+  font-size: 12px;
+  color: #999999;
+  margin-left: -17%;
+}
+#main #three-dl {
+  margin-bottom: 70px;
+}
+#main #wrap {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#main #wrap .block {
+  position: absolute;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #eaeaea;
+  overflow: hidden;
+}
+#main #wrap .block div {
+  display: inline-block;
+}
+#main #wrap .block .area {
+  float: left;
+  width: 45%;
+}
+#main #wrap .block .area li {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10%;
+  font-size: 14px;
+}
+#main #wrap .block .area .active {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+#main #wrap .block .meter {
+  width: 55%;
+  height: 100%;
+  float: left;
+  background-color: #f3f3f3;
+}
+#main #wrap .block .meter ul {
+  display: none;
+}
+#main #wrap .block .meter .one {
+  color: #fea211;
+  border-bottom: 1px solid #fea211;
+}
+#main #wrap .block .meter li {
+  height: 40px;
+  line-height: 40px;
+  margin-left: 15%;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+#bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1c1c1c;
+}
+#bottom a {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  color: #fff;
+  margin: 10px 0 10px 2%;
+}
+#bottom a p {
+  font-size: 12px;
+}
+#bottom .bottom-l i {
+  display: block;
+  width: 35px;
+  height: 30px;
+  margin: 0 auto;
+  background: url("../img/bottom-l.png") 0px 0px no-repeat;
+  background-size: 35px 30px;
+}
+#bottom .bottom-c i {
+  display: block;
+  width: 35px;
+  height: 30px;
+  margin: 0 auto;
+  background: url("../img/bottom-c.png") 0px 0px no-repeat;
+  background-size: 35px 30px;
+}
+#bottom .bottom-c p {
+  color: #fffc00;
+}
+#bottom .bottom-r i {
+  display: block;
+  width: 35px;
+  height: 30px;
+  margin: 0 auto;
+  background: url("../img/bottom-r.png") 0px 0px no-repeat;
+  background-size: 35px 30px;
+}
